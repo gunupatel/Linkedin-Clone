@@ -1,0 +1,145 @@
+.login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    
+    height: 400px;
+    color: #0073b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.login_card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 529px;
+    
+}
+.login_card .login__header{
+    color: black;
+  
+}
+.login__header .text{
+     margin-top: -10px; 
+}
+.forget__password{
+    margin-left: -270px;
+    cursor: pointer;
+}
+
+.label-css-form-login{
+    margin-bottom: 10px !important;
+}
+
+.sign-in-button {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.signup{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color:#0073b1;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+
+} 
+.Signup__password{
+    padding-top: 20px;
+   
+}
+
+a{
+    color: #0073b1;
+    text-decoration: none;
+}
+.header__title{
+    margin: 0px;
+}
+.signup .header__title h1{
+    color: #fff;
+    font-size: 30px;
+
+}
+.header__title span{
+    background-color: #fff;
+    color: #3de9fc;
+    padding: 0 10px;
+    border-radius: 7px;
+    
+}
+.header__text{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.Signup__email{
+    background-color: white;
+    color: #333;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input,
+label,
+button{
+    display: block;
+    text-align: left;
+    width: 380px;
+}
+
+.Signup__email{
+    padding-bottom: 30px;
+}
+
+.label{
+    font-size: 14px;
+}
+
+input{
+    padding: 10px 10px;
+    border: 2px solid #0073b1;
+    outline: none;
+}
+
+ .submit-btn{
+    text-align: center;
+    background-color: #0073b1;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+     transition: all 0.5s ease-out; 
+} 
+
+ .submit-btn:hover{
+    opacity: 30px;
+} 
+
+.Signup__text small{
+    font-size: 12px;
+}
+.sign_in_text{
+    padding-top: 20px;
+}
+.Signup__text{
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.signin-text-css{
+    cursor: pointer;
+}

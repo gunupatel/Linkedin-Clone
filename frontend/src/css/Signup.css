@@ -1,0 +1,146 @@
+.signup{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color:#0073b1;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+
+} 
+.Signup__password{
+    padding-top: 20px;
+   
+}
+
+a{
+    color: #0073b1;
+    text-decoration: none;
+}
+.header__title{
+    margin: 0px;
+}
+.signup .header__title h1{
+    color: #fff;
+    font-size: 30px;
+
+}
+.header__title span{
+    background-color: #fff;
+    color: #3de9fc;
+    padding: 0 10px;
+    border-radius: 7px;
+    
+}
+.header__text{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.Signup__email{
+    background-color: white;
+    color: #333;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input,
+label,
+button{
+    display: block;
+    text-align: left;
+    width: 380px;
+}
+
+.Signup__email{
+    padding-bottom: 30px;
+}
+
+.label{
+    font-size: 14px;
+}
+
+input{
+    padding: 10px 10px;
+    border: 2px solid #0073b1;
+    outline: none;
+}
+
+/* .submit-btn{
+    text-align: center;
+    background-color: #0073b1;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+     transition: all 0.5s ease-out; 
+} */
+/* .submit-btn {
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    border-radius: 8px !important;
+
+    outline: none !important;
+
+    padding-top: 14px !important;
+
+    padding-bottom: 14px !important;
+
+    padding-left: 24px !important;
+
+    padding-right: 24px !important;
+
+    margin-right: 10px;
+
+    margin-top: 30px;
+
+    border: none;
+
+    /* border-radius: 14px; */
+
+    /* background: linear-gradient(
+
+      to right,
+
+      #e61e4d 0%,
+
+      #e31c5ee1 50%,
+
+      #d70466 100%
+
+    ) !important;
+
+    color: #ffffff !important;
+
+    width: 103% !important;
+  } */ */
+  
+.submit-btn:hover{
+    opacity: 30px;
+}
+
+.Signup__text small{
+    font-size: 12px;
+}
+.sign_in_text{
+    padding-top: 20px;
+}
+.Signup__text{
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+.signin-text-css{
+    cursor: pointer;
+}
